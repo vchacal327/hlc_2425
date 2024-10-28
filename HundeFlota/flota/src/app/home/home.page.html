@@ -1,0 +1,14 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Hundir la flota
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="ion-padding">
+    <ion-input type="string" [(ngModel)]="string" placeholder="Introduce coordenadas: "></ion-input>
+    <ion-button expand="block" (click)="compruebaCasilla()">Dispara</ion-button>
+  </div>
+</ion-content>

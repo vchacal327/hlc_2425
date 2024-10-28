@@ -1,0 +1,7 @@
+{
+  "name": "flota",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
