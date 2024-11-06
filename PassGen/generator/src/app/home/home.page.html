@@ -1,0 +1,16 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Generador de contraseñas
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="ion-padding">
+    <ion-input type="number" min="1" max="128" [(ngModel)]="long" placeholder="Introduzca la longitud:">  
+    </ion-input>
+    <p>{{clave}}</p>
+    <ion-button expand="block" (click)="stringAleatorio()">Listo</ion-button>
+  </div>
+</ion-content>
