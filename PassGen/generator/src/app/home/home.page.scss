@@ -25,3 +25,42 @@
 #container a {
   text-decoration: none;
 }
+
+@media screen and (max-width: 767px) {
+  ion-content {
+    --background: #1359d3;
+    --color: #fff;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  ion-content {
+    --background: #13d349;
+    --color: #fff;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  ion-content {
+    --background: #d31373;
+    --color: #fff;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .original {
+    display: inline;
+  }
+  .duplicado {
+    display: none;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .original {
+    display: none;
+  }
+  .duplicado {
+    display: inline;
+  }
+}
